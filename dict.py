@@ -11,7 +11,7 @@ def input_word():
     try:
         key=key.lower()
         validate(key)
-#        print(dictionary(key))
+##        print(dictionary(key))
     except KeyError:
         print("Invalid word")
 
